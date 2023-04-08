@@ -16,12 +16,13 @@ html, body {
 }
 
 
-/*---------- HEADER ----------*/
+/*---------- HEADER ----------gradient for#D16BA5 #E3E3E3 #D5D5D5*/
 
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  /* background: #e3e3e3; */
+  background-image: linear-gradient(to right top, #d16ba5, #cf85bb, #cd9dcc, #ceb4d8, #d3c9df, #d6d1e0, #dad8e0, #dfdfdf, #dcdcdc, #dadada, #d7d7d7, #d5d5d5);
 }
 
 
@@ -34,15 +35,15 @@ header {
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #cd9dcc;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #d3c9df;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #D16BA5;
 }
 
 
@@ -56,52 +57,52 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Change the background colors below - Matching Palette*/
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: #D5D5D5;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #474554;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #ACA9BB;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #B8DDD0;
   }
 
   footer {
-    background-color: ;
+    background-color: #82A69A;
   }
-  
+
 }
 
 
-/*---------- Desktops ----------*/
+/*---------- Desktops ---------- Matching Gradient*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: #B9BCC1;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #9AA5AD;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #799096;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #5A7B7A;
   }
 
   footer {
-    background-color: ;
+    background-color: #43655A;
   }
-   
+
 }
